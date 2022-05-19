@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.timerBtn {
+  width: 80px;
+  height: 30px;
+  border: 3px solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 12px;
+  background-color: rgb(128,128,128);
+  color: rgb(240, 240, 240);
+  cursor: pointer;
+  font-family: consolas, monospace;
+  transition: background-color 0.15s;
+}
+
+.timerBtn:hover {
+  background-color: rgb(100,100,100);
+}
+
+#timeDisplay{
+  font-size: 75px;
+  color: rgb(100,100,100);
+  font-family: consolas, monospace;
+}
+
+#timeContainer {
+  text-align: center;
+  border: 3px solid;
+  border-radius: 25px;
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
+  /* width: 400px; */
+}
